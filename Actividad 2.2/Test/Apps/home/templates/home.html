@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>A web page</title>
+    
+<body >
+       <div class=" Titulos  ">  
+
+            <h1>  Home  </h1>  
+           
+        </div>
+
+        <div class=" enlaces  ">  
+            
+            <a href="{% url 'index' %}">Inicio</a>
+            <a href="{% url 'Estudiantes' %}">Estudiantes</a>
+            <a href="{% url 'Administradores' %}">Administradores</a>
+  
+       </div>
+
+       <div class=" contenido  " >
+       <table table border="2 justify-content-center" >
+        <tr>
+      
+            <td class="importante "> Codigo </td>
+            <td class="importante "> Nombre </td>
+            <td class="importante "> Apellido </td>
+            <td class="importante "> sexo </td>
+            <td class="importante ">  Correo </td>
+            <td class="importante ">  <p class="texto"  > Foto </p> </td>
+        </tr>
+
+         <tr>
+     
+            <td  class="importante ">0903-18-18289</td> 
+            <td  class="importante ">Jose</td> 
+            <td  class="importante ">Estrada</td> 
+            <td  class="importante ">Masculino</td> 
+            <td  class="importante ">josefue@gmail.com</td> 
+            <td> <img class="imagenes" src="https://imagenes.elpais.com/resizer/PZVU79vdNQk3XV9neGszD18_xSY=/414x0/arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/7YWZS4ERSPKFDYZPJIAZGQAEIQ.jpg" width="100px" height="100px"></td>
+     
+
+        </tr>
+
+        <tr>
+     
+          <td  class="importante ">0903-18-18189</td>
+          <td  class="importante ">Pablo</td> 
+          <td  class="importante ">Escobar</td> 
+          <td  class="importante ">Masculino</td> 
+          <td  class="importante ">plesbar@gmail.com</td> 
+          <td> <img class="imagenes" src="https://www.xlsemanal.com/wp-content/uploads/sites/3/2021/06/mi-manifiesto-verde-por-bill-gates-2-768x506.jpg" width="100px" height="100px"></td>
+   
+
+      </tr>
+
+
+       </table>
+      </div>
+      <a href="{% url 'index' %}">  Regresar pagina Inicio</a>
+
+
+</body>
+</html>
