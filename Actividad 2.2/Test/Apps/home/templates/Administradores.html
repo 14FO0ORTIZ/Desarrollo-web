@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>A web page</title>
+    
+<body >
+       <div class=" Titulos  ">  
+
+            <h1 class="importante "> Tabla Administración </h1>  
+           
+
+        </div>
+
+        <div class=" enlaces  ">  
+            
+            <a href="{% url 'home' %}">home</a>
+            <a href="{% url 'Estudiantes' %}">Estudiantes</a>
+
+            
+       </div>
+
+       <div class=" contenido  " >
+       <table  tabble border="2">
+        <tr>
+      
+            <td class="importante "> Codigo </td>
+            <td class="importante "> Nombre </td>
+            <td class="importante "> Apellido </td>
+            <td class="importante "> sexo </td>
+            <td class="importante ">  <p class="texto"  > Correo </p> </td>
+            <td class="importante ">  <p class="texto"  > Foto </p> </td>
+        </tr>
+
+         <tr>
+     
+            <td  class="importante ">0903-18-18289</td> 
+            <td  class="importante ">Jose</td> 
+            <td  class="importante ">Estrada</td> 
+            <td  class="importante ">Masculino</td> 
+            <td  class="importante ">josefue@gmail.com</td> 
+            <td> <img class="imagenes" src="https://ehorus.com/wp-content/uploads/2018/06/administrador-de-sistemas-featured-1080x675.png" width="100px" height="100px"></td>
+     
+
+        </tr>
+
+        <tr>
+     
+          <td  class="importante ">0903-18-18189</td>
+          <td  class="importante ">Pablo</td> 
+          <td  class="importante ">Escobar</td> 
+          <td  class="importante ">Masculino</td> 
+          <td  class="importante ">plesbar@gmail.com</td> 
+          <td> <img class="imagenes" src="https://tumundoeconomia.com/wp-content/uploads/2020/07/concepto-de-administrador-4.jpg" width="100px" height="100px"></td>
+   
+
+      </tr>
+
+       </table>
+      </div>
+      <a href="{% url 'index' %}">  Regresar pagina Inicio</a>
+
+</body>
+</html>
